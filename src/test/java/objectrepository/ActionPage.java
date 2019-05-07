@@ -23,7 +23,7 @@ public class ActionPage {
 	@FindBy(id="email")
 	private WebElement txt_email;
 	
-	@FindBy(name = "addr")
+	@FindBy(name = "adr")
 	private WebElement txt_addr;
 	
 	@FindBy(id="telephoneno")

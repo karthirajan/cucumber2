@@ -19,7 +19,7 @@ public void the_user_fill_in_the_form(DataTable cusDetails) {
 	ap1.getTxt_fname().sendKeys(cd.get(1).get("fname"));
     ap1.getTxt_lname().sendKeys(cd.get(0).get("lname"));
     ap1.getTxt_email().sendKeys(cd.get(3).get("email"));
-    ap1.getTxt_addr().sendKeys(cd.get(2).get("address"));
+    ap1.getTxt_addr().sendKeys(cd.get(2).get("adress"));
     ap1.getTxt_phno().sendKeys(cd.get(2).get("phno"));
 }
 
